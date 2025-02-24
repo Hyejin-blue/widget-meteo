@@ -1,28 +1,4 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Widget Météo</title>
-</head>
-<body>
-    <a class="weatherwidget-io" href="https://forecast7.com/fr/45d160d40/saint-vincent-de-connezac/" 
-       data-label_1="Saint-Vincent" 
-       data-label_2="_______" 
-       data-font="Roboto" 
-       data-theme="beige">
-       Saint-Vincent _______
-    </a>
-    <script>
-    !function(d,s,id){
-        var js,fjs=d.getElementsByTagName(s)[0];
-        if(!d.getElementById(id)){
-            js=d.createElement(s);
-            js.id=id;
-            js.src='https://weatherwidget.io/js/widget.min.js';
-            fjs.parentNode.insertBefore(js,fjs);
-        }
-    }(document,'script','weatherwidget-io-js');
-    </script>
-</body>
-</html>
+<a class="weatherwidget-io" href="https://forecast7.com/fr/45d160d40/saint-vincent-de-connezac/" data-label_1="Saint-Vincent" data-label_2="_______" data-font="Roboto" data-theme="beige" >Saint-Vincent _______</a>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+</script>
